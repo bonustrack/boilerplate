@@ -3,15 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "start": "node start.js",
+    "heroku-postbuild": "npm install --only=dev --no-shrinkwrap && npm run build",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "express": "^4.16.4",
     "lodash": "^4.17.11",
     "node-sass": "^4.10.0",
     "primer": "^10.10.2",
     "sass-loader": "^7.1.0",
+    "serve-static": "^1.13.2",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
