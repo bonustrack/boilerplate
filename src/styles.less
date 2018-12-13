@@ -1,0 +1,78 @@
+@import './vars';
+@import './fonts';
+
+* {
+  outline: none;
+}
+
+html, body, #app {
+  height: 100%;
+  color: @heading-color;
+  background-color: @bg-color;
+  font-family: 'Circular-Pro-Book', Helvetica, Arial, sans-serif;
+  font-size: 20px;
+
+  .dark {
+    color: @heading-dark-color;
+    background-color: @bg-dark-color;
+    background-image: url('./assets/img/dot_grid_bg.svg');
+    background-position: top center;
+    background-attachment: fixed;
+  }
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 38px;
+  font-weight: normal;
+}
+
+h4, p {
+  font-size: 22px;
+  font-weight: normal;
+  color: @text-color;
+}
+
+.btn-basic {
+  border: none;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: 'Circular-Pro-Book', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  background-color: @primary-color;
+  border-radius: 22px;
+  height: 44px;
+  line-height: 44px;
+  color: white;
+  padding: 0 36px;
+  display: inline-block;
+
+  &:hover {
+    background-color: darken(@primary-color, 10%);
+    text-decoration: none;
+  }
+}
+
+label {
+  font-weight: normal;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.app-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 980px;
+  width: 100%;
+}
+
+.preview {
+  display: inline-block;
+  background-color: @primary-color;
+  height: 300px;
+  width: 500px;
+}
