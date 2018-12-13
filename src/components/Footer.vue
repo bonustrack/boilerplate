@@ -1,5 +1,5 @@
 <template>
-  <nav class="nav-footer text-center p-4 mt-6">
+  <nav class="nav-footer text-center p-4">
     <ul>
       <li class="mx-3">shitcoin © {{new Date().getFullYear()}}</li>
       <li class="mx-3">Privacy policy</li>
