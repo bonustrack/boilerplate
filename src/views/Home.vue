@@ -4,8 +4,8 @@
       <div class="app-container py-12 flex-auto anim-fade-in">
         <div class="columns">
           <div class="column col-lg-8 col-md-9 text-center text-md-left p-5">
-            <h1 class="mb-4">The easiest way to create your own shitcoin</h1>
-            <h4 class="mb-8">Your stunning shitcoin is just a few clicks away.</h4>
+            <h1 class="mb-4">The easiest way to learn just the necessary</h1>
+            <h4 class="mb-8">Your stunning distrifab is just a few lines away.</h4>
             <router-link to="/#start" class="btn-basic">
               Start now
             </router-link>

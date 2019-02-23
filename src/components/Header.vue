@@ -1,7 +1,7 @@
 <template>
   <nav class="nav-primary p-4">
     <router-link to="/" class="text-white">
-      <span class="octicon octicon-primitive-dot v-align-middle"></span> shitcoin
+      <span class="octicon octicon-primitive-dot v-align-middle"></span> distrifab
     </router-link>
   </nav>
 </template>
