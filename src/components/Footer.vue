@@ -1,17 +1,17 @@
 <template>
   <nav class="nav-footer text-center p-4">
     <ul>
-      <li class="mx-3">shitcoin © {{new Date().getFullYear()}}</li>
+      <li class="mx-3">Steem Games © {{new Date().getFullYear()}}</li>
       <li class="mx-3">Privacy policy</li>
     </ul>
   </nav>
 </template>
 
 <style scoped lang="less">
-@import '../vars';
+@import '../assets/less/vars';
 
 .nav-footer {
-  background-color: @secondary-color;
+  background-color: @bg-color;
   width: 100%;
   font-size: 16px;
 
