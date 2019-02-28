@@ -1,15 +1,15 @@
 <template>
-  <div class="banner dark mb-6">
-    <div class="app-container py-12 flex-auto anim-fade-in">
+  <div class="banner b-color-primary mb-6">
+    <div class="container py-12 flex-auto anim-fade-in">
       <div class="columns">
         <div class="column col-lg-8 col-md-9 text-center text-md-left p-5">
           <h1 class="title mb-4">
-            Creating Winners Every Day
+            Play Fun Games and earn real money
           </h1>
-          <h4 class="subtitle mb-8">
-            Play Fun Games and earn real money!
+          <h4 class="subtitle text-white mb-8">
+            Make Steem first on crypto online gaming
           </h4>
-          <router-link to="/#start" class="btn-basic">
+          <router-link to="/center" class="btn-basic">
             Play now
           </router-link>
         </div>
@@ -25,14 +25,22 @@
 <style scoped lang="less">
 @import '../assets/less/vars';
 
+.b-banner-inside {
+  background: url('./../assets/img/games-center-banner-xl.jpg') no-repeat;
+}
 .banner {
+  position: relative;
+  z-index: 0;
+  height: 100vh;
+
   .title {
-    color: @banner-title-color;
+    // color: @banner-title-color;
     font-size: @banner-title-size;
     font-family: 'Circular-Pro-Bold';
+    line-height: 1;
   }
   .subtitle {
-    color: @banner-subtitle-color;
+    // color: @banner-subtitle-color;
     font-size: @banner-subtitle-size;
   }
   .preview {
@@ -44,16 +52,5 @@
     border-radius: 50px;
   }
 }
-
-.dark {
-  color: @heading-dark-color;
-  background-color: @bg-dark-color;
-  // background-image: url('./assets/img/bg-banner.jpg');
-  background-color: #2490EF;
-  background-image: linear-gradient(264deg, #f8b314, #fff401 54%, #fee004);
-  background-position: top center;
-  background-attachment: fixed;
-}
-
 
 </style>

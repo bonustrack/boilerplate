@@ -1,10 +1,12 @@
 <template>
-  <nav class="nav-footer text-center p-4">
-    <ul>
-      <li class="mx-3">Steem Games © {{new Date().getFullYear()}}</li>
-      <li class="mx-3">Privacy policy</li>
-    </ul>
-  </nav>
+  <footer role="footer">
+    <nav class="nav-footer text-center p-4">
+      <ul>
+        <li class="mx-3">Steem Games © {{new Date().getFullYear()}}</li>
+        <li class="mx-3">Privacy policy</li>
+      </ul>
+    </nav>
+  </footer>
 </template>
 
 <style scoped lang="less">

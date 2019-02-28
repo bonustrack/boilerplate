@@ -1,11 +1,7 @@
 <template>
-  <span>
+  <div class="home">
     <Header/>
     <Banner/>
-    <main>
-      <List/>
-      <Infos/>
-    </main>
     <Footer/>
-  </span>
+  </div>
 </template>

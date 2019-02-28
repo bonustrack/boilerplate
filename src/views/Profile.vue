@@ -1,0 +1,9 @@
+<template>
+  <span>
+    <Header/>
+    <main>
+      <ProfileInfos/>
+    </main>
+    <Footer/>
+  </span>
+</template>

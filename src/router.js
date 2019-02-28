@@ -1,3 +1,4 @@
+
 import Vue from 'vue';
 import Router from 'vue-router';
 import Home from './views/Home.vue';
@@ -14,9 +15,9 @@ export default new Router({
       component: Home,
     },
     {
-      path: '/about',
-      name: 'about',
-      component: () => import(/* webpackChunkName: "about" */ './views/About.vue'),
+      path: '/center',
+      name: 'center',
+      component: () => import(/* webpackChunkName: "about" */ './views/Center.vue'),
     },
   ],
 });

@@ -29,34 +29,12 @@ h4, p {
   color: @text-color;
 }
 
-.dark {
-  color: @heading-dark-color;
-  background-color: @bg-dark-color;
-  // background-image: url('./assets/img/bg-banner.jpg');
-  background-color: #2490EF;
-  background-image: linear-gradient(264deg, #f8b314, #fff401 54%, #fee004);
-  background-position: top center;
-  background-attachment: fixed;
+ul {
+  list-style: none;
 }
 
-.btn-basic {
-  border: none;
-  font-size: 16px;
-  font-weight: normal; 
-  font-family: 'Circular-Pro-Book', Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  background-color: @primary-color;
-  border-radius: 22px;
-  height: 44px;
-  line-height: 44px;
-  color: white;
-  padding: 0 36px;
-  display: inline-block;
-
-  &:hover {
-    background-color: darken(@primary-color, 10%);
-    text-decoration: none;
-  }
+.d-table {
+  width: 100%;
 }
 
 label {
@@ -65,9 +43,70 @@ label {
   display: block;
 }
 
-.app-container {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 980px;
+header {
+  position: absolute;
+  z-index: 1;
+  top: 0;
   width: 100%;
+}
+
+.game-center {
+  header {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-bottom: solid 1px rgba(255, 255, 255, 0.15);
+  }
+}
+
+.hero {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  .hero-banner {
+    width: 100%;
+    height: 100px;
+    background-color: @secondary-color;
+  }
+}
+
+footer {
+  margin-top: auto;
+}
+
+table {
+  background: white;
+  position: absolute;
+}
+
+.b-color-primary {
+  color: @color-primary;
+  background-image: @b-image-primary;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+.large {
+  font-size: 2rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.btn-basic {
+  margin-top: 1rem;
+  display: inline-flex;
+  border-radius: 4px;
+  line-height: 32px;
+  color: #2980F2;
+  background-image: linear-gradient(180deg,#F1CF90,#F3C742 54%,#F3BA49);
+  font-size:1.8rem;
+  padding: 1rem 3rem;
+  text-decoration:none;
+  text-align:center;
+  cursor:pointer;
+  text-decoration: none;
+  &:active, &:hover, &.hover {
+    background-image: linear-gradient(180deg,#F1CF90,#F1CF90 54%,#F1CF90);
+  }
 }

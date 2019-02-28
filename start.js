@@ -1,5 +1,9 @@
 const express = require('express');
 const serveStatic = require('serve-static');
+// const Koa = require('koa');
+//
+// const app = new Koa();
+// const serve = require('koa-static');
 
 const app = express();
 app.use(serveStatic(`${__dirname}/dist`));
